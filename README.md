@@ -39,6 +39,7 @@ services:
   pubsub:
     image: singularities/pubsub-emulator
     environment:
+      - DOCKER_DEFAULT_PLATFORM=linux/amd64
       - PUBSUB_PROJECT_ID=project-test
       - PUBSUB_LISTEN_ADDRESS=0.0.0.0:8432
     ports:
