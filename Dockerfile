@@ -1,4 +1,3 @@
-# Version. Can change in build progress
 ARG GCLOUD_SDK_VERSION=alpine
 
 # Use google cloud sdk
